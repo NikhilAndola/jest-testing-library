@@ -1,0 +1,23 @@
+.normal {
+    color: red;
+}
+
+.hovered {
+    color: orange;
+    animation-name: zozo;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zozo {
+    10% {
+        color: yellow;
+    }
+    50% {
+        color: green;
+    }
+    100% {
+        color: purple;
+    }
+}
